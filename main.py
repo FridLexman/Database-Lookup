@@ -23,7 +23,7 @@ class DirectorySearchApp:
 
     def search_files(self, event=None):
         search_query = self.search_var.get().lower()  # Get current search query
-        directory_path = r"C:\Users\Admin\Desktop"  # Change to your directory
+        directory_path = r"C:/DIRECTORY/HERE"  # Change to your directory
 
         # Clear previous results
         self.results_box.delete(0, tk.END)
